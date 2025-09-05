@@ -11,4 +11,4 @@ nombre_completo = (nombre + apellido)
 letranum = int(input("¿Qué letra le gustaría que saliera en pantalla digite el numero de la letra?"))
 
 
-print(nombre_completo[letranum])
+print("\nel numero de su nombre es:\n" + nombre_completo[letranum])
