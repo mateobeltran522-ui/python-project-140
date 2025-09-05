@@ -1,0 +1,14 @@
+nombre = input("escriba su nombre\n")  
+print (f"\nsu nombre es:\n {nombre}\n")
+
+apellido = input("escriba su apellidon\n ")
+print (f"\nsu apellido es:\n {apellido}\n")
+
+print (f"\nsu nombre completo es:\n {nombre} {apellido}")
+
+nombre_completo = (nombre + apellido)
+
+letranum = int(input("¿Qué letra le gustaría que saliera en pantalla digite el numero de la letra?"))
+
+
+print(nombre_completo[letranum])
